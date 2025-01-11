@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ration Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            border: 2px solid #d88a25;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #d88a25;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .content {
+            padding: 20px;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .label {
+            font-weight: bold;
+            color: #555;
+        }
+        .qr-code {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            background-color: #d88a25;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            30 प्रo खाद्य एवं रसद विभाग, उत्तर प्रदेश सरकार
+        </div>
+        <div class="content">
+            <div class="row">
+                <span class="label">मुखिया का नाम:</span>
+                <span>विद्या वती</span>
+            </div>
+            <div class="row">
+                <span class="label">पिता/पति:</span>
+                <span>बदन सिंह</span>
+            </div>
+            <div class="row">
+                <span class="label">सदस्य:</span>
+                <span>2</span>
+            </div>
+            <div class="row">
+                <span class="label">राज्य:</span>
+                <span>उत्तर प्रदेश</span>
+            </div>
+            <div class="row">
+                <span class="label">जिला:</span>
+                <span>शाहजहांपुर</span>
+            </div>
+            <div class="row">
+                <span class="label">दुकान संख्या:</span>
+                <span>20221691</span>
+            </div>
+            <div class="row">
+                <span class="label">पिन कोड:</span>
+                <span>242127</span>
+            </div>
+            <div class="qr-code">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?data=RationCardNo:215241187366&size=150x150" alt="QR Code">
+            </div>
+            <div class="row">
+                <span class="label">राशन कार्ड नंबर:</span>
+                <span>215241187366</span>
+            </div>
+        </div>
+        <div class="footer">
+            हेल्पलाइन नंबर: 1067 | Website: <a href="https://nfsa.up.gov.in" style="color: #fff;">nfsa.up.gov.in</a>
+        </div>
+    </div>
+</body>
+</html>
